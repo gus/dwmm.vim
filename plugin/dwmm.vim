@@ -58,8 +58,6 @@ function! DWMM_Focus()
   exec "b " . l:curbuf
 endfunction
 
-"nnoremap <silent> <Plug>DWMMNew   :call DWMM_New()<CR>
-"nnoremap <silent> <Plug>DWMMFocus :call DWMM_Focus()<CR>
 nnoremap <silent> <Plug>DWMMNew   :call DWMM_New()<CR>
 nnoremap <silent> <Plug>DWMMFocus :call DWMM_Focus()<CR>
 
